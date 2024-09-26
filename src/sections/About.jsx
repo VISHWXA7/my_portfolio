@@ -16,7 +16,7 @@ const About = () => {
         }, 2000)
     }
   return (
-    <section className="c-space my-20">
+    <section className="c-space my-20" id="about">
         <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
 
             <div className="col-span-1 xl:row-span-3">
@@ -31,7 +31,7 @@ const About = () => {
 
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:w-[276px] h-fit object-contain"/>
+                        <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:w-[276px] h-fit object-contain lg:ml-[26px]"/>
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
                             <p className="grid-subtext">I specialized in JavaScript/TypeScript with a focus on React and Next.js Ecosystems.</p>
@@ -42,17 +42,16 @@ const About = () => {
                 <div className="col-span-1 xl:row-span-4">
                     <div className="grid-container">
                         <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
-                            <Globe 
-                                height={326}
-                                width={326}
-                                backgroundColor="rgba(0,0,0,0)"
-                                backgroundImageUrl={0.5}
-                                showAtmosphere
-                                showGraticules
-                                globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
-                                bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                                
-                            />
+                        <Globe
+                            height={326}
+                            width={326}
+                            backgroundColor="rgba(0, 0, 0, 0)"
+                            backgroundImageOpacity={0.5}
+                            showAtmosphere
+                            showGraticules
+                            globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
+                            bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
+                        />
                         </div>
                         <div>
                             <p className="grid-headtext">I work remotly across most.</p>
