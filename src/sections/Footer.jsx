@@ -12,7 +12,7 @@ const Footer = () => {
 
         <div className='flex gap-3'>
             <div className='social-icon'>
-                <img src='/assets/github.svg' alt='github' className='w-1/2 h-1/2'/>
+                <a href='https://www.reddit.com/user/Alarmed_Quarter6334/'><img src='/assets/github.svg' alt='github' className='w-1/2 h-1/2 ml-'/></a>
             </div>
             <div className='social-icon'>
                 <img src='/assets/twitter.svg' alt='twitter' className='w-1/2 h-1/2'/>

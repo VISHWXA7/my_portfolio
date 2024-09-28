@@ -16,7 +16,7 @@ const About = () => {
         }, 2000)
     }
   return (
-    <section className="c-space my-20" id="about">
+    <section className="c-space my-20 h-screen" id="about">
         <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
 
             <div className="col-span-1 xl:row-span-3">
@@ -24,7 +24,7 @@ const About = () => {
                     <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain"/>
                     <div>
                         <p className="grid-headtext">Hi, I am Vishwaa</p>
-                        <p className="grid-subtext">"I am a fresher who has honed my skills in frontend and backend development, focusing on building modern websites. I am also well-versed in data structures and algorithms to enhance my problem-solving abilities."</p>
+                        <p className="grid-subtext">"I am a fresher who has honed my skills in frontend development, focusing on building modern websites."</p>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@ const About = () => {
                 <div className="xl:col-span-1 xl:row-span-2">
                     <div className="grid-container">
                         <img src="/assets/grid4.png" alt="grid-4" className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top " />
-                        <div className="space-y-2">
+                        <div className="space-y-1 sm:space-y-2">
                             <p className="grid-subtext text-center">Contact me</p>
                             <div className="copy-container" onClick={handleCopy}>
                                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy"/>

@@ -26,7 +26,7 @@ const Projects = () => {
 
   
   return (
-    <section className="c-space my-20" id="Work">
+    <section className="c-space my-20" id="work">
         <p className="head-text">My Work</p>
 
 
