@@ -7,19 +7,6 @@ Welcome to my portfolio! This repository showcases my skills and projects as a F
 
 Check out my live portfolio at: Your Portfolio Link
 
-📁 Project Structure
-
-/public          # Static files (e.g., images, icons)
-/src
-   /components   # Reusable components
-   /pages        # Page components
-   /styles       # CSS/SCSS/Tailwind files
-   /utils        # Helper functions
-   /assets       # Images, fonts, and other assets
-   index.js      # Entry point for the app
-   App.js        # Main component for routing
-   ...
-
 
 🔧 Technologies Used
 
