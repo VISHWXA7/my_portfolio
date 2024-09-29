@@ -6,7 +6,7 @@
 
 🌐 Live Demo
 
-   Check out my live portfolio at: 
+   Check out my live portfolio at: Vishwaaportfolio.in
 
 
 🔧 Technologies Used
@@ -47,9 +47,9 @@
 
 📫 Get in Touch
 
-   Feel free to reach out if you want to collaborate or have any questions!
+   - Feel free to reach out if you want to collaborate or have any questions!
       
-   Email: vishwaa.3511@gmail.com
+   - Email: vishwaa.3511@gmail.com
       
-   LinkedIn:
+   - LinkedIn: https://www.linkedin.com/in/vishwaa7/
 
