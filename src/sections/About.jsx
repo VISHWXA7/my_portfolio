@@ -31,7 +31,7 @@ const About = () => {
 
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:w-[276px] h-fit object-contain lg:ml-[26px]"/>
+                        <img src="/assets/grid2-1.png" alt="grid-2" className="w-full sm:w-[276px] h-fit object-contain lg:ml-[26px]"/>
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
                             <p className="grid-subtext">I specialized in JavaScript/TypeScript with a focus on React and Next.js Ecosystems.</p>

@@ -53,3 +53,5 @@
       
    - LinkedIn: https://www.linkedin.com/in/vishwaa7/
 
+   - Instagram: https://www.instagram.com/vishwxa_/
+
