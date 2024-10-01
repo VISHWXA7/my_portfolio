@@ -77,7 +77,6 @@ body {
     @apply cursor-pointer flex justify-center items-center gap-2;
   }
 
-
   /* contact section */
   .contact-container {
     @apply max-w-xl relative z-10 sm:px-10 px-5 mt-12;
